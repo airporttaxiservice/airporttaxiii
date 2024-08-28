@@ -11,6 +11,7 @@ export default function BlankBaseLayout(props) {
             <Head>
                 <title>{page.title}</title>
                 <meta name="description" content="Components Library" />
+                <meta name="google-site-verification" content="wxrnR6bwYBvPKG0U7CD24jmJ_6JKBuW14x7R6dJTNyk" />
                 {site.favicon && <link rel="icon" href={site.favicon} />}
             </Head>
             {props.children}
