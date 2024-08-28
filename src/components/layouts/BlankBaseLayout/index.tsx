@@ -9,6 +9,7 @@ export default function BlankBaseLayout(props) {
     return (
         <div className={classNames('sb-page', pageMeta.pageCssClasses)} {...(enableAnnotations && { 'data-sb-object-id': pageMeta.id })}>
             <Head>
+                <meta name="google-site-verification" content="wxrnR6bwYBvPKG0U7CD24jmJ_6JKBuW14x7R6dJTNyk" />
                 <title>{page.title}</title>
                 <meta name="google-site-verification" content="wxrnR6bwYBvPKG0U7CD24jmJ_6JKBuW14x7R6dJTNyk" />
                 {site.favicon && <link rel="icon" href={site.favicon} />}
